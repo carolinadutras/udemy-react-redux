@@ -7,7 +7,7 @@ export default function Aleatorio(props){
     } = props
     const aleatorio = parseInt(Math.random() * (max - min +1)) + min
     
-console.log(aleatorio)
+// console.log(aleatorio)
     return(
         <React.Fragment>
             <h2>This is a Random number</h2>
