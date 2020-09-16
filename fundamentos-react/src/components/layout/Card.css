@@ -1,17 +1,22 @@
-.Card{
-    background-color:red;
-    border-radius: 10px;
-    overflow: hidden;
-    border: 3px solid green;
+.Card {
+  border-radius: 10px;
+  overflow: hidden;
+  border: 3px solid;
+  margin: 10px;
+  display:flex;
+  flex-direction: column;
+  min-width:500px;
+  max-width:500px;
 }
 
-.Card .Title{
-padding: 10px 0px;
-display: flex;
-justify-content: center;
+.Card .Title {
+  padding: 5px 0px;
+  display: flex;
+  justify-content: center;
 }
-.Content{
-    background-color:white;
-    padding: 20px;
-    color: black;
+.Card .Content {
+  background-color: white;
+  padding: 10px;
+  color: black;
+  flex-grow:1;
 }
