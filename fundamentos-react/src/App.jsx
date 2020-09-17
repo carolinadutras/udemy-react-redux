@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import UsuarioInfo from './components/condicional/UsuarioInfo';
+import ParOuImpar from './components/condicional/ParOuImpar'
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
 import Primeiro from "./components/basicos/Primeiro";
@@ -15,7 +17,16 @@ export default function App(props) {
     <div className="App">
       <h1>Fundamentos React</h1>
       <div className="Cards">
-      <Card titulo=" #7 - Exercicio Repetição  " color="#FFC300">
+        
+      <Card titulo=" #8 - Renderização condicional  " color="#DAF7A6">
+          <ParOuImpar numero ={22}> </ParOuImpar>
+        <UsuarioInfo usuario ={{name: 'Carol'}}/>
+        <UsuarioInfo usuario ={{email: 'Carol@carol.com'}}/>
+        <UsuarioInfo usuario ={{}}/>
+
+        </Card>
+
+      <Card titulo=" #7 - Exercicio Repetição  " color="#C70039">
           <TabelaProdutos />
         </Card>
         <Card titulo=" #6 - Repetição " color="#FFC300">
