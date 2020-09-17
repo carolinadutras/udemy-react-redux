@@ -11,18 +11,20 @@ import Aleatorio from "./components/basicos/Aleatorio";
 import Card from "./components/layout/Card";
 import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
+import DiretaPai from "./components/comunicacao/DiretaPai";
 
 export default function App(props) {
   return (
     <div className="App">
       <h1>Fundamentos React</h1>
       <div className="Cards">
-        
+      <Card titulo=" #9 - Comunicação direta  " color="#DAF7A6">
+          <DiretaPai> </DiretaPai>
+        </Card>
+
       <Card titulo=" #8 - Renderização condicional  " color="#DAF7A6">
           <ParOuImpar numero ={22}> </ParOuImpar>
         <UsuarioInfo usuario ={{name: 'Carol'}}/>
-        <UsuarioInfo usuario ={{email: ''}}/>
-        <UsuarioInfo usuario ={{}}/>
 
         </Card>
 
