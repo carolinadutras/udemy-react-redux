@@ -21,7 +21,7 @@ export default function App(props) {
       <Card titulo=" #8 - Renderização condicional  " color="#DAF7A6">
           <ParOuImpar numero ={22}> </ParOuImpar>
         <UsuarioInfo usuario ={{name: 'Carol'}}/>
-        <UsuarioInfo usuario ={{email: 'Carol@carol.com'}}/>
+        <UsuarioInfo usuario ={{email: ''}}/>
         <UsuarioInfo usuario ={{}}/>
 
         </Card>
