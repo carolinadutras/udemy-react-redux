@@ -23,11 +23,11 @@ export default function App(props) {
           <IndiretaPai> </IndiretaPai>
         </Card>
 
-      <Card titulo=" #9 - Comunicação direta  " color="#DAF7A6">
+      <Card titulo=" #9 - Comunicação direta  " color="#F000FF">
           <DiretaPai> </DiretaPai>
         </Card>
 
-      <Card titulo=" #8 - Renderização condicional  " color="#DAF7A6">
+      <Card titulo=" #8 - Renderização condicional  " color="#8EFF00">
           <ParOuImpar numero ={22}> </ParOuImpar>
         <UsuarioInfo usuario ={{name: 'Carol'}}/>
 
