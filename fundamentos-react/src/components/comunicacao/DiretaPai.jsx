@@ -1,7 +1,7 @@
 import React from 'react';
 import DiretaFilho from './DiretaFilho';
 
-export default propd =>{
+export default props =>{
     return(
         <div>
             <DiretaFilho nome='Gabriel' idade={10} nerd={true}/>
