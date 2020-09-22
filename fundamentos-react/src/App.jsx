@@ -1,5 +1,9 @@
 import React from "react";
 import "./App.css";
+import GeradorMega from './components/megasena/GeradorMega.jsx'
+import ContadorDesconstruido from './components/contador/ContadorDesconstruido'
+import Contador from './components/contador/Contador'
+import Input from './components/formulario/Input'
 import IndiretaPai from './components/comunicacao/IndiretaPai';
 import UsuarioInfo from './components/condicional/UsuarioInfo';
 import ParOuImpar from './components/condicional/ParOuImpar'
@@ -19,6 +23,19 @@ export default function App(props) {
     <div className="App">
       <h1>Fundamentos React</h1>
       <div className="Cards">
+
+      <Card titulo=" #14 - Gerador Surpresinha da Mega   " color="#B72EBF">
+          <GeradorMega qtde={6}/>
+        </Card>
+      <Card titulo=" #13 - Contador Desconstruido   " color="#FFC300">
+          <ContadorDesconstruido ></ContadorDesconstruido>
+        </Card>
+      <Card titulo=" #12 - Contador   " color="#FFC300">
+          <Contador numeroInicial = {10} ></Contador>
+        </Card>
+      <Card titulo=" #11 - Componente controlado (Input)  " color="#4C0C50">
+          <Input> </Input>
+        </Card>
       <Card titulo=" #10 - Comunicação indireta  " color="#00D5FF">
           <IndiretaPai> </IndiretaPai>
         </Card>
